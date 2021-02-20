@@ -1,0 +1,33 @@
+We have streamlined our data, now we need to adapt it to an ML algorithm. Steps we will take in order:
+
+1) Cleaning Data: In this step, we will make the expressions in the text understood by our algorithm. For example, we will translate an expression like "!! helhaba" into "hello".
+
+2) Bag of Words: We will make Texti ML apply.
+
+3) Text Classification: In this step, we get the results we want to reach with ML algorithms.
+
+
+# Cleaning Data:
+text_list = []
+for text in df.text:
+    text = re.sub ("[^ a-zA-Z]", "", text) # a-z We replace all expressions except A-Z with a space
+    we convert text = text.lower () # from uppercase to lowercase
+    We separate each word in text = nltk.word_tokenize (text) # text
+    lemma = nlp.WordNetLemmatizer ()
+    With text # [lemma.lemmatize (word) for word in text] # for loop, we break down every word in the text
+    text = "" .join (text) # we combine the words we separate one by putting a space between them again
+    text_list.append (text) # we gather all the texts we create into a list
+
+
+# Bag of Words: 
+max_features = 150 # Most used 150 words in text.
+We delete non-English words with # stop_words.
+count_vectorizer = CountVectorizer (max_features = max_features, stop_words = "english")
+
+We fit our # method on texts and make the result a list.
+sparce_matrix = count_vectorizer.fit_transform (text_list) .toarray ()
+
+print ("most common {} words: {}". format (max_features, count_vectorizer.get_feature_names ()))
+x = sparce_matrix
+y = df.iloc [:, 3] .values
+

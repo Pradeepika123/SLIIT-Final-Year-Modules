@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+Wine Quality Prediction
+--------------------------------------------------------------------------------
+Dataset
+https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009/kernels
+
+Kernel
+https://www.kaggle.com/vishalyo990/prediction-of-quality-of-wine
+====================================
+
+
+-------------------------------------------------------------------------------
+Fake or Real Job Prediction
+-------------------------------------------------------------------------------
+Dataset
+https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction
+
+Kernel
+https://www.kaggle.com/nikitaalbert/is-this-job-for-real#Introduction
+https://www.kaggle.com/vashistnarayansingh/fake-job-prediction
+https://www.kaggle.com/mahmutevik/job-postings-is-it-true-accuracy-logreg-nb-knn
+====================================

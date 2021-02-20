@@ -1,0 +1,35 @@
+===================================================
+========TODO 1: classification_reports function====================
+===================================================
+Function :- sklearn.metrics.classification_report(y_true, y_pred, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False)
+
+This function builds a text report showing the main classification metrics.
+Classification metrics includes precision, recall, f1-score and support.
+output_dict is boolean type and dictionary returned if output_dict is True.
+
+The reported averages include following information:
+	1) micro average (averaging the total true positives, false negatives and false positives)
+	2) macro average (averaging the unweighted mean per label)
+	3) weighted average (averaging the support-weighted mean per label) and sample average (only for multilabel classification)
+
+
+===================================================
+========TODO 2: confusion_matrix function======================
+===================================================
+Function :- sklearn.metrics.confusion_matrix(y_true, y_pred, labels=None, sample_weight=None)
+
+Compute confusion matrix to evaluate the accuracy of a classification.
+This function returns an array of actual values and predicted values for each class label.
+For binary problems, we can get counts of true negatives, false positives, false negatives and true positives from confusion metrix.
+
+
+
+
+
+
+
+
+
+
+
+

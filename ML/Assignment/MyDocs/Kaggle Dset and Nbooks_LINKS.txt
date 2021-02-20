@@ -1,0 +1,35 @@
+netflix
+https://www.kaggle.com/aalhendi/netflix-movies-and-tv-shows-ratings
+-----------------------------------------------------------------------------------------------------
+wine quality
+https://www.kaggle.com/kerneler/starter-wine-quality-prediction-20e5d455-3
+https://www.kaggle.com/vinodthakur/wine-quality-prediction/kernels
+https://www.kaggle.com/ajaysingh123/wine-quality-clustering-e1e1ea8e-c
+https://www.kaggle.com/siddhant123/wine-quality-analysis	(clustering unsupervised)
+https://www.kaggle.com/aviskumar/hierarchical-clustering
+https://www.kaggle.com/ajaysingh123/wine-quality-clustering-unsupervised
+----------------------------------------------------------------------------------------------------
+knife 
+https://www.kaggle.com/shank885/knife-dataset
+----------------------------------------------------------------------------------------------------
+fake job posting prediction
+https://www.kaggle.com/vikassingh1996/fake-job-posting-prediction-feats-glove-xgboost
+https://www.kaggle.com/sean49/fake-job-posting-a-hybrid-nn-classifier
+https://www.kaggle.com/shivamb/simple-logistic-regression-with-tfidf	(logistice regression)
+----------------------------------------------------------------------------------------------------
+personality testing
+https://www.kaggle.com/tunguz/big-five-personality-test/kernels
+https://www.kaggle.com/akspikey/analysis-log-regres-71-decision-tree-99
+https://www.kaggle.com/ledioz/agreeableness-ann
+----------------------------------------------------------------------------------------------------
+supermarket expences
+https://www.kaggle.com/egebozoglu/supermarket-expenses-western-european-countries
+https://www.kaggle.com/egebozoglu/supermarket-expenses-western-europe/kernels
+----------------------------------------------------------------------------------------------------
+hotel booking demand
+https://www.kaggle.com/jessemostipak/hotel-booking-demand
+kaggle.com/tanetboss/random-forest-simply-visualization
+https://www.kaggle.com/amsharma7/hotel-booking-logistic-regression
+---------------------------------------------------------------------------------------------------
+fake and real news dataset
+https://www.kaggle.com/madz2000/text-classification-using-keras-90-accuracy
